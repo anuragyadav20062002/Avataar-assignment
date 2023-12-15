@@ -1,0 +1,63 @@
+/* navbar.css */
+
+.navbar {
+  background: #2f302c;
+  width: 1400px;
+  height: 40px;
+  padding: 24px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  color: #fff;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.more {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+
+.more-dropdown {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  background: #2f302c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none; /* Initially hide the dropdown */
+  flex-direction: column; /* Set flex-direction to column for vertical alignment */
+  padding: 10px;
+}
+
+.more-dropdown .menu-item {
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 4px 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.more-dropdown .menu-item:hover {
+  background: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+.more:hover .more-dropdown {
+  display: flex; /* Show the dropdown on hover */
+}
+
+.search-bar {
+  background: #2f302c;
+  border-radius: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
