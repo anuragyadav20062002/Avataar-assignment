@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Avataar-assignment/static/css/main.bddde373.css",
+    "main.js": "/Avataar-assignment/static/js/main.704d2fac.js",
+    "static/js/787.62a1464b.chunk.js": "/Avataar-assignment/static/js/787.62a1464b.chunk.js",
+    "index.html": "/Avataar-assignment/index.html",
+    "main.bddde373.css.map": "/Avataar-assignment/static/css/main.bddde373.css.map",
+    "main.704d2fac.js.map": "/Avataar-assignment/static/js/main.704d2fac.js.map",
+    "787.62a1464b.chunk.js.map": "/Avataar-assignment/static/js/787.62a1464b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bddde373.css",
+    "static/js/main.704d2fac.js"
+  ]
+}
