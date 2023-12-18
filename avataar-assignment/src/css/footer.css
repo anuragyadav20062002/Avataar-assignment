@@ -1,0 +1,18 @@
+/* Add your custom styling here */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Change color on hover to match Bootstrap's primary color */
+  }
+  

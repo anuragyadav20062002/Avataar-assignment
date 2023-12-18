@@ -1,7 +1,7 @@
 // Navbar.jsx
 
 import React, { useState, useEffect } from 'react';
-import './navbar.css'; // Import your CSS file for styling
+import '../css/navbar.css'; // Import your CSS file for styling
 
 const Navbar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

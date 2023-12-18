@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './carousel.css'; // Import your CSS file for styling
+import '../css/carousel.css'; // Import your CSS file for styling
 import { CarouselData } from './CarouselData';
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
 

@@ -1,0 +1,53 @@
+/* navbar.css */
+
+.navbar {
+  background: #222831;
+  width: 1390px; /* Adjusted width to fill the entire width of the screen */
+  height: 30px;
+  padding: 24px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  color: #fff;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.more {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+
+.more-dropdown {
+  position: absolute;
+  top: 100%; /* Adjusted top value */
+  left: 0;
+  padding: 40px;
+  background: #222831;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  z-index: 1; /* Updated z-index value */
+}
+
+.more-dropdown .menu-item {
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 4px 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.more-dropdown .menu-item:hover {
+  background: #fff;
+  color: #000;
+}
+
+.more:hover .more-dropdown {
+  display: flex;
+}
